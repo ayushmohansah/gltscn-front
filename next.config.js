@@ -25,6 +25,10 @@ const nextConfig = withStoreConfig({
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "gltscn-stg-bkt.blr1.digitaloceanspaces.com",
+      },
     ],
   },
 })
